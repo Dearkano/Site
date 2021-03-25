@@ -530,6 +530,9 @@ input[type="radio"] + label:before {
 .image img {
   border-radius: 0.35em;
   display: block;
+  width: 20rem;
+  height: 12rem;
+  object-fit: contain;
 }
 
 .image.left {
@@ -1516,4 +1519,9 @@ h4 {
 .square img {
   width: 100%;
   height: 100%;
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
 }
