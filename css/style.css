@@ -568,7 +568,6 @@ input[type="radio"] + label:before {
 }
 
 .image.avatar {
-  border-radius: 100%;
 }
 
 .image.avatar:before {
